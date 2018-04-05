@@ -21,7 +21,7 @@ namespace memory
     private:
         
         static TextureStore      *storage;
-        map<string, Texture*>     _store;
+        map<string, Texture*>    _store;
         
         /**
          * Default constructor
